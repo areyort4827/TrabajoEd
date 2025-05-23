@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sistema Policial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Sistema Policial</h1>
+        <button onclick="openTab('radio')">📡 Radio</button>
+        <button onclick="openTab('camaras')">📹 Cámaras</button>
+        <button onclick="openTab('ciudadanos')">👤 Ciudadanos</button>
+        <button onclick="openTab('reportes')">📋 Reportes</button>
+        <button onclick="openTab('penal')">⚖️ Código Penal</button>
+        <button onclick="openTab('evidencia')">📎 Evidencia</button>
+        <button onclick="openTab('k9')">🐶 K9</button>
+
+        <div id="content">
+            <p>Selecciona un módulo.</p>
+        </div>
+
+        <button onclick="closeUI()">❌ Cerrar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
